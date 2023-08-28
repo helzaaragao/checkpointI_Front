@@ -1,0 +1,32 @@
+.formContainer{ 
+    width: 100vw; 
+    display: flex; 
+    justify-content: space-around;   
+    flex-wrap: wrap;
+    
+}
+
+.respostas{ 
+   display: flex; 
+   flex-direction: column;
+   align-items: start;
+   font-size: 0.8em;
+   color:#ffffffce
+   
+}
+
+input{ 
+    width: 20em; 
+    height: 4em; 
+    border-radius: 0.8em;
+    border-color: rgb(158, 147, 245);
+    padding: 1em; 
+}
+
+input::placeholder{ 
+   color: rgba(228, 229, 247, 0.762);
+}
+
+button{ 
+    background-color: #36CE7C;
+}
